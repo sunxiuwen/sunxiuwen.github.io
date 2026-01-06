@@ -21,12 +21,12 @@ function copyright()
 			// console.log(xhr.getAllResponseHeaders())
 			curYear = new Date(time).getFullYear();
 			
-			var init = 2018
-			var strcopy = init;
-			if(curYear > init)
-				strcopy = init + "-" + curYear
+		//	var init = 2018
+		//	var strcopy = init;
+		//	if(curYear > init)
+		//		strcopy = init + "-" + curYear
 		
-			document.getElementById('copyright').innerText = strcopy
+			document.getElementById('copyright').innerText = curYear
 		}
     }
 }
